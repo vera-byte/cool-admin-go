@@ -1,0 +1,11 @@
+# GRPC Server.
+grpc:
+  address: ":8084"
+  name: "user"
+  logPath: ""
+  logStdout: true
+  errorStack: true
+  errorLogEnabled: true
+  errorLogPattern: "error-{Ymd}.log"
+  accessLogEnabled: true
+  accessLogPattern: "access-{Ymd}.log"
