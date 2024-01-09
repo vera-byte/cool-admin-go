@@ -1,6 +1,6 @@
 # cool-admin-go mysql 驱动包
 
-扩展了 GoFrame 的 mysql 包,集成了 gorm相关功能.
+扩展了 GoFrame 的 mysql 包,集成了 gorm 相关功能.
 
 ## 使用方法
 
@@ -8,11 +8,12 @@
 
 ```go
 import (
-    _ "github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql"
+    _ "github.com/vera-byte/cool-admin-go/contrib/drivers/mysql"
 
     // 换行然后再入模块包,防止编辑器自动排序导致引入顺序错乱
-    _ "github.com/cool-team-official/cool-admin-go/modules/base"
+    _ "github.com/vera-byte/cool-admin-go/modules/base"
 
 )
 ```
+
 ## 配置

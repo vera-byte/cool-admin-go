@@ -3,8 +3,8 @@ package pgsql
 import (
 	_ "github.com/gogf/gf/contrib/drivers/pgsql/v2"
 
-	"github.com/cool-team-official/cool-admin-go/cool/cooldb"
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/vera-byte/cool-admin-go/cool/cooldb"
 
 	"fmt"
 

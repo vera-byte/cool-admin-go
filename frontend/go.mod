@@ -1,3 +1,3 @@
-module github.com/cool-team-official/cool-admin-go/frontend
+module github.com/vera-byte/cool-admin-go/frontend
 
 go 1.18

@@ -18,7 +18,7 @@ Linux, Mac 可使用以下命令安装：
 
 ```bash
 wget -O cool-tools \
-https://github.com/cool-team-official/cool-admin-go/releases/latest/download/cool-tools_$(go env GOOS)_$(go env GOARCH) \
+https://github.com/vera-byte/cool-admin-go/releases/latest/download/cool-tools_$(go env GOOS)_$(go env GOARCH) \
 && chmod +x cool-tools \
 && ./cool-tools install \
 && rm ./cool-tools
@@ -28,7 +28,7 @@ https://github.com/cool-team-official/cool-admin-go/releases/latest/download/coo
 
 ```bash
 wget -O cool-tools \
-https://gh.hjmcloud.cn/github.com/cool-team-official/cool-admin-go/releases/latest/download/cool-tools_$(go env GOOS)_$(go env GOARCH) \
+https://gh.hjmcloud.cn/github.com/vera-byte/cool-admin-go/releases/latest/download/cool-tools_$(go env GOOS)_$(go env GOARCH) \
 && chmod +x cool-tools \
 && ./cool-tools install \
 && rm ./cool-tools
@@ -40,16 +40,15 @@ https://gh.hjmcloud.cn/github.com/cool-team-official/cool-admin-go/releases/late
 cool-tools version
 ```
 
-Windows 可以直接下载编译后的可执行文件，下载地址：[releases](https://github.com/cool-team-official/cool-admin-go/releases),选择对应的版本下载。下载后复制到`PATH`环境变量中的目录下即可。
+Windows 可以直接下载编译后的可执行文件，下载地址：[releases](https://github.com/vera-byte/cool-admin-go/releases),选择对应的版本下载。下载后复制到`PATH`环境变量中的目录下即可。
 
 ::: tip 提示
 在正确地将 GOPATH/bin 目录添加到 PATH 环境变量中后，可以直接使用`go install`命令安装,因为该安装方式为本地编译安装,可享受`goproxy`的加速服务,安装速度更快,适用于所有平台。
 :::
 
 ```bash
-go install github.com/cool-team-official/cool-admin-go/cool-tools@latest
+go install github.com/vera-byte/cool-admin-go/cool-tools@latest
 ```
-
 
 ## gf
 

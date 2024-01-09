@@ -1,7 +1,7 @@
 package demo
 
 import (
-	_ "github.com/cool-team-official/cool-admin-go/modules/demo/controller"
-	_ "github.com/cool-team-official/cool-admin-go/modules/demo/model"
-	_ "github.com/cool-team-official/cool-admin-go/modules/demo/service"
+	_ "github.com/vera-byte/cool-admin-go/modules/demo/controller"
+	_ "github.com/vera-byte/cool-admin-go/modules/demo/model"
+	_ "github.com/vera-byte/cool-admin-go/modules/demo/service"
 )

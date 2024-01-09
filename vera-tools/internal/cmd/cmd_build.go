@@ -20,7 +20,7 @@ import (
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/gogf/gf/v2/util/gtag"
 
-	"github.com/cool-team-official/cool-admin-go/cool-tools/internal/utility/mlog"
+	"github.com/vera-byte/cool-admin-go/cool-tools/internal/utility/mlog"
 )
 
 var (

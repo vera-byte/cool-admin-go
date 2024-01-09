@@ -1,5 +1,5 @@
 package service
 
 import (
-	_ "github.com/cool-team-official/cool-admin-go/modules/space/model"
+	_ "github.com/vera-byte/cool-admin-go/modules/space/model"
 )

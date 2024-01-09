@@ -3,9 +3,9 @@ package middleware
 import (
 	"strings"
 
-	"github.com/cool-team-official/cool-admin-go/cool"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
+	"github.com/vera-byte/cool-admin-go/cool"
 )
 
 func AutoI18n(r *ghttp.Request) {

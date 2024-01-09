@@ -1,14 +1,14 @@
 package middleware
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool"
-	"github.com/cool-team-official/cool-admin-go/modules/base/config"
 	"github.com/gogf/gf/v2/container/garray"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/gogf/gf/v2/util/gconv"
 	"github.com/golang-jwt/jwt/v4"
+	"github.com/vera-byte/cool-admin-go/cool"
+	"github.com/vera-byte/cool-admin-go/modules/base/config"
 )
 
 // 本类接口无需权限验证

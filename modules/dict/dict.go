@@ -1,13 +1,13 @@
 package dict
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool"
-	_ "github.com/cool-team-official/cool-admin-go/modules/dict/packed"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
+	"github.com/vera-byte/cool-admin-go/cool"
+	_ "github.com/vera-byte/cool-admin-go/modules/dict/packed"
 
-	_ "github.com/cool-team-official/cool-admin-go/modules/dict/controller"
-	"github.com/cool-team-official/cool-admin-go/modules/dict/model"
+	_ "github.com/vera-byte/cool-admin-go/modules/dict/controller"
+	"github.com/vera-byte/cool-admin-go/modules/dict/model"
 )
 
 func init() {

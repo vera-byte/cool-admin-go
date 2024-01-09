@@ -2,9 +2,10 @@ package admin
 
 import (
 	"context"
-	"github.com/cool-team-official/cool-admin-go/cool"
-	"github.com/cool-team-official/cool-admin-go/modules/base/service"
+
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/vera-byte/cool-admin-go/cool"
+	"github.com/vera-byte/cool-admin-go/modules/base/service"
 )
 
 type BaseSysDepartmentController struct {
@@ -29,7 +30,7 @@ type OrderReq struct {
 	Authorization string `json:"Authorization" in:"header"`
 }
 
-//Order 排序部门
+// Order 排序部门
 func (c *BaseSysDepartmentController) Order(ctx context.Context, req *OrderReq) (res *cool.BaseRes, err error) {
 	err = service.NewBaseSysDepartmentService().Order(ctx)
 	res = cool.Ok(nil)

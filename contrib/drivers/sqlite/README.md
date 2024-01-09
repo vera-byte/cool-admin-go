@@ -8,10 +8,10 @@
 
 ```go
 import (
-    _ "github.com/cool-team-official/cool-admin-go/contrib/drivers/sqlite"
+    _ "github.com/vera-byte/cool-admin-go/contrib/drivers/sqlite"
 
     // 换行然后再入模块包,防止编辑器自动排序导致引入顺序错乱
-    _ "github.com/cool-team-official/cool-admin-go/modules/base"
+    _ "github.com/vera-byte/cool-admin-go/modules/base"
 
 )
 ```

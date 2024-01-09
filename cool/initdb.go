@@ -1,10 +1,10 @@
 package cool
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool/cooldb"
 	"github.com/gogf/gf/v2/encoding/gjson"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gres"
+	"github.com/vera-byte/cool-admin-go/cool/cooldb"
 	"gorm.io/gorm"
 )
 

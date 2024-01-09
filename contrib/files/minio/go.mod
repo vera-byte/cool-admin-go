@@ -1,9 +1,9 @@
-module github.com/cool-team-official/cool-admin-go/contrib/files/minio
+module github.com/vera-byte/cool-admin-go/contrib/files/minio
 
 go 1.18
 
 require (
-	github.com/cool-team-official/cool-admin-go/cool v1.0.19
+	github.com/vera-byte/cool-admin-go/cool v1.0.19
 	github.com/gogf/gf/v2 v2.4.0
 	github.com/minio/minio-go/v7 v7.0.52
 )

@@ -1,12 +1,12 @@
 package service
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool"
 	"github.com/gogf/gf/v2/errors/gerror"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gcron"
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/gogf/gf/v2/text/gstr"
+	"github.com/vera-byte/cool-admin-go/cool"
 )
 
 // EnableTask 启用任务

@@ -1,10 +1,10 @@
 package demo
 
 import (
-	_ "github.com/cool-team-official/cool-admin-go/modules/space/controller"
-	_ "github.com/cool-team-official/cool-admin-go/modules/space/middleware"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
+	_ "github.com/vera-byte/cool-admin-go/modules/space/controller"
+	_ "github.com/vera-byte/cool-admin-go/modules/space/middleware"
 )
 
 func init() {

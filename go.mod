@@ -1,17 +1,17 @@
-module github.com/cool-team-official/cool-admin-go
+module github.com/vera-byte/cool-admin-go
 
 go 1.18
 
 require (
-	github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql v1.5.1
-	github.com/cool-team-official/cool-admin-go/contrib/drivers/pgsql v1.5.1
-	github.com/cool-team-official/cool-admin-go/contrib/files/local v1.5.1
-	github.com/cool-team-official/cool-admin-go/cool v1.5.1
-	github.com/cool-team-official/cool-admin-go/modules/base v1.5.1
-	github.com/cool-team-official/cool-admin-go/modules/demo v1.5.1
-	github.com/cool-team-official/cool-admin-go/modules/dict v1.5.1
-	github.com/cool-team-official/cool-admin-go/modules/space v1.5.1
-	github.com/cool-team-official/cool-admin-go/modules/task v1.5.1
+	github.com/vera-byte/cool-admin-go/contrib/drivers/mysql v1.5.1
+	github.com/vera-byte/cool-admin-go/contrib/drivers/pgsql v1.5.1
+	github.com/vera-byte/cool-admin-go/contrib/files/local v1.5.1
+	github.com/vera-byte/cool-admin-go/cool v1.5.1
+	github.com/vera-byte/cool-admin-go/modules/base v1.5.1
+	github.com/vera-byte/cool-admin-go/modules/demo v1.5.1
+	github.com/vera-byte/cool-admin-go/modules/dict v1.5.1
+	github.com/vera-byte/cool-admin-go/modules/space v1.5.1
+	github.com/vera-byte/cool-admin-go/modules/task v1.5.1
 	github.com/gogf/gf/v2 v2.5.1
 )
 

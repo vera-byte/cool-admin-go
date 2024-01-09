@@ -34,7 +34,7 @@ if [ "$REMOTE_CONTAINERS" = "true" ]; then
 
     # 安装cool-tools
     echo "Installing cool-tools ..."
-    go install github.com/cool-team-official/cool-admin-go/cool-tools@latest
+    go install github.com/vera-byte/cool-admin-go/cool-tools@latest
     # 安装gf
     echo "Installing gf use mirror ..."
     pgit wget -O gf \

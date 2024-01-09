@@ -3,7 +3,7 @@ package cmd
 import (
 	"context"
 
-	"github.com/cool-team-official/cool-admin-go/cool-tools/internal/service"
+	"github.com/vera-byte/cool-admin-go/cool-tools/internal/service"
 
 	"github.com/gogf/gf/v2/os/gcmd"
 )

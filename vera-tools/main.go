@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool-tools/internal/cmd"
-	_ "github.com/cool-team-official/cool-admin-go/cool-tools/internal/packed"
-	"github.com/cool-team-official/cool-admin-go/cool-tools/internal/utility/allyes"
-	"github.com/cool-team-official/cool-admin-go/cool-tools/internal/utility/mlog"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gcfg"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/gogf/gf/v2/os/gfile"
+	"github.com/vera-byte/cool-admin-go/cool-tools/internal/cmd"
+	_ "github.com/vera-byte/cool-admin-go/cool-tools/internal/packed"
+	"github.com/vera-byte/cool-admin-go/cool-tools/internal/utility/allyes"
+	"github.com/vera-byte/cool-admin-go/cool-tools/internal/utility/mlog"
 )
 
 const (

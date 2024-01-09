@@ -1,16 +1,16 @@
 # CoolAdminGo
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/cool-team-official/cool-admin-go.svg)](https://pkg.go.dev/github.com/cool-team-official/cool-admin-go)
-[![Build Release](https://github.com/cool-team-official/cool-admin-go/actions/workflows/release.yml/badge.svg)](https://github.com/cool-team-official/cool-admin-go/actions/workflows/release.yml)
-[![Goproxy.cn](https://goproxy.cn/stats/github.com/cool-team-official/cool-admin-go/badges/download-count.svg)](https://goproxy.cn)
+[![Go Reference](https://pkg.go.dev/badge/github.com/vera-byte/cool-admin-go.svg)](https://pkg.go.dev/github.com/vera-byte/cool-admin-go)
+[![Build Release](https://github.com/vera-byte/cool-admin-go/actions/workflows/release.yml/badge.svg)](https://github.com/vera-byte/cool-admin-go/actions/workflows/release.yml)
+[![Goproxy.cn](https://goproxy.cn/stats/github.com/vera-byte/cool-admin-go/badges/download-count.svg)](https://goproxy.cn)
 
 CoolAdmin 的 Go 版本后端
 
 - [docs](https://cool-team-official.github.io/cool-admin-go/) - 开发文档
 - [changelog](docs/changelog.md) - 更新日志
-- [github](https://github.com/cool-team-official/cool-admin-go) - cool-admin-go 仓库
-- [release](https://github.com/cool-team-official/cool-admin-go/releases) - cool-tools 编译版本下载
-- [issues](https://github.com/cool-team-official/cool-admin-go/issues) - 问答区
+- [github](https://github.com/vera-byte/cool-admin-go) - cool-admin-go 仓库
+- [release](https://github.com/vera-byte/cool-admin-go/releases) - cool-tools 编译版本下载
+- [issues](https://github.com/vera-byte/cool-admin-go/issues) - 问答区
 - [CoolAdmin](https://cool-js.com) - CoolAdmin 官网
 - [GoFrame](https://goframe.org) - GoFrame 官网
 
@@ -40,19 +40,19 @@ CoolAdmin 的 Go 版本后端
 从 github 下载
 
 ```bash
-wget -O cool-tools https://github.com/cool-team-official/cool-admin-go/releases/latest/download/cool-tools_$(go env GOOS)_$(go env GOARCH) && chmod +x cool-tools && ./cool-tools install  && rm ./cool-tools
+wget -O cool-tools https://github.com/vera-byte/cool-admin-go/releases/latest/download/cool-tools_$(go env GOOS)_$(go env GOARCH) && chmod +x cool-tools && ./cool-tools install  && rm ./cool-tools
 ```
 
 如果到直接下载速度过慢，可使用`pgit`加速安装
 
 ```bash
-pgit wget -O cool-tools https://github.com/cool-team-official/cool-admin-go/releases/latest/download/cool-tools_$(go env GOOS)_$(go env GOARCH) && chmod +x cool-tools && ./cool-tools install  && rm ./cool-tools
+pgit wget -O cool-tools https://github.com/vera-byte/cool-admin-go/releases/latest/download/cool-tools_$(go env GOOS)_$(go env GOARCH) && chmod +x cool-tools && ./cool-tools install  && rm ./cool-tools
 ```
 
 通过`go install`安装
 
 ```bash
-go install github.com/cool-team-official/cool-admin-go/cool-tools@latest
+go install github.com/vera-byte/cool-admin-go/cool-tools@latest
 ```
 
 验证

@@ -12,7 +12,7 @@
 
 ### SQLite 配置
 
-使用`sqllite`数据库时，需在`main.go`中引入`_ "github.com/cool-team-official/cool-admin-go/contrib/drivers/sqlite"`包，然后在`config.yaml`中配置`sqlite`数据库。
+使用`sqllite`数据库时，需在`main.go`中引入`_ "github.com/vera-byte/cool-admin-go/contrib/drivers/sqlite"`包，然后在`config.yaml`中配置`sqlite`数据库。
 
 ::: warning 注意
 `sqlite`引入应早于使用数据库的包， 为防止编辑器自动排序，可在数据包引入下方加一个空行。
@@ -22,10 +22,10 @@
 // main.go
 import (
     // 引入sqlite驱动
-    _ "github.com/cool-team-official/cool-admin-go/contrib/drivers/sqlite"
+    _ "github.com/vera-byte/cool-admin-go/contrib/drivers/sqlite"
 
     // 引入其他包
-    "github.com/cool-team-official/cool-admin-go/pkg/dao"
+    "github.com/vera-byte/cool-admin-go/pkg/dao"
 
 )
 ```
@@ -45,7 +45,7 @@ database:
 
 ### MySQL 配置
 
-使用`mysql`数据库时，需在`main.go`中引入`_ "github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql"`包，然后在`config.yaml`中配置`mysql`数据库。
+使用`mysql`数据库时，需在`main.go`中引入`_ "github.com/vera-byte/cool-admin-go/contrib/drivers/mysql"`包，然后在`config.yaml`中配置`mysql`数据库。
 
 ::: warning 注意
 `mysql`引入应早于使用数据库的包， 为防止编辑器自动排序，可在数据包引入下方加一个空行。
@@ -55,10 +55,10 @@ database:
 // main.go
 import (
     // 引入mysql驱动
-    _ "github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql"
+    _ "github.com/vera-byte/cool-admin-go/contrib/drivers/mysql"
 
     // 引入其他包
-    "github.com/cool-team-official/cool-admin-go/pkg/dao"
+    "github.com/vera-byte/cool-admin-go/pkg/dao"
 
 )
 ```
@@ -119,7 +119,7 @@ docker compose  -f "docker-compose.yml" down mysql8
 
 ### PostgreSQL 配置
 
-使用`postgresql`数据库时，需在`main.go`中引入`_ "github.com/cool-team-official/cool-admin-go/contrib/drivers/pgsql"`包，然后在`config.yaml`中配置`postgresql`数据库。
+使用`postgresql`数据库时，需在`main.go`中引入`_ "github.com/vera-byte/cool-admin-go/contrib/drivers/pgsql"`包，然后在`config.yaml`中配置`postgresql`数据库。
 
 ::: warning 注意
 `postgresql`引入应早于使用数据库的包， 为防止编辑器自动排序，可在数据包引入下方加一个空行。
@@ -129,10 +129,10 @@ docker compose  -f "docker-compose.yml" down mysql8
 // main.go
 import (
     // 引入postgresql驱动
-    _ "github.com/cool-team-official/cool-admin-go/contrib/drivers/pgsql"
+    _ "github.com/vera-byte/cool-admin-go/contrib/drivers/pgsql"
 
     // 引入其他包
-    "github.com/cool-team-official/cool-admin-go/pkg/dao"
+    "github.com/vera-byte/cool-admin-go/pkg/dao"
 
 )
 ```

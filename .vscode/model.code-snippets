@@ -19,11 +19,11 @@
     "scope": "go",
     "prefix": "cool-model",
     "description": "创建model",
-    "body":[
+    "body": [
       "package model",
       "",
       "import (",
-      "       \"github.com/cool-team-official/cool-admin-go/cool\"",
+      "       \"github.com/vera-byte/cool-admin-go/cool\"",
       ")",
       "",
       "const TableName${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} = \"${TM_FILENAME_BASE/(.*)/${1:/downcase}/}\"",
@@ -54,7 +54,7 @@
       "// init 创建表",
       "func init() {",
       "       cool.CreateTable(&${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}{})",
-      "}",
-      ]
+      "}"
+    ]
   }
 }

@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool"
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/vera-byte/cool-admin-go/cool"
 )
 
 // sConfig 配置

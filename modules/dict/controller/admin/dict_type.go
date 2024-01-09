@@ -1,8 +1,8 @@
 package admin
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool"
-	"github.com/cool-team-official/cool-admin-go/modules/dict/service"
+	"github.com/vera-byte/cool-admin-go/cool"
+	"github.com/vera-byte/cool-admin-go/modules/dict/service"
 )
 
 type DictTypeController struct {

@@ -1,6 +1,6 @@
 package model
 
-import "github.com/cool-team-official/cool-admin-go/cool"
+import "github.com/vera-byte/cool-admin-go/cool"
 
 const TableNameBaseSysMenu = "base_sys_menu"
 

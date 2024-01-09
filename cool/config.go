@@ -1,6 +1,6 @@
 package cool
 
-import "github.com/cool-team-official/cool-admin-go/cool/coolconfig"
+import "github.com/vera-byte/cool-admin-go/cool/coolconfig"
 
 var (
 	Config            = coolconfig.Config            // 配置中的cool节相关配置

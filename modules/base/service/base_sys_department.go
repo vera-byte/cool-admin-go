@@ -1,11 +1,11 @@
 package service
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool"
-	"github.com/cool-team-official/cool-admin-go/modules/base/model"
 	"github.com/gogf/gf/v2/database/gdb"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/util/gconv"
+	"github.com/vera-byte/cool-admin-go/cool"
+	"github.com/vera-byte/cool-admin-go/modules/base/model"
 )
 
 type BaseSysDepartmentService struct {

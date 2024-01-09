@@ -1,29 +1,29 @@
 package main
 
 import (
-	_ "github.com/cool-team-official/cool-admin-go/internal/packed"
+	_ "github.com/vera-byte/cool-admin-go/internal/packed"
 
 	_ "github.com/gogf/gf/contrib/nosql/redis/v2"
 
-	_ "github.com/cool-team-official/cool-admin-go/contrib/files/local"
+	_ "github.com/vera-byte/cool-admin-go/contrib/files/local"
 
 	// Minio，按需启用
-	// _ "github.com/cool-team-official/cool-admin-go/contrib/files/minio"
+	// _ "github.com/vera-byte/cool-admin-go/contrib/files/minio"
 
 	// 阿里云OSS，按需启用
-	// _ "github.com/cool-team-official/cool-admin-go/contrib/files/oss"
+	// _ "github.com/vera-byte/cool-admin-go/contrib/files/oss"
 
-	// _ "github.com/cool-team-official/cool-admin-go/contrib/drivers/sqlite"
+	// _ "github.com/vera-byte/cool-admin-go/contrib/drivers/sqlite"
 
-	_ "github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql"
+	_ "github.com/vera-byte/cool-admin-go/contrib/drivers/mysql"
 
-	_ "github.com/cool-team-official/cool-admin-go/contrib/drivers/pgsql"
+	_ "github.com/vera-byte/cool-admin-go/contrib/drivers/pgsql"
 
-	_ "github.com/cool-team-official/cool-admin-go/modules"
+	_ "github.com/vera-byte/cool-admin-go/modules"
 
 	"github.com/gogf/gf/v2/os/gctx"
 
-	"github.com/cool-team-official/cool-admin-go/internal/cmd"
+	"github.com/vera-byte/cool-admin-go/internal/cmd"
 )
 
 func main() {

@@ -6,10 +6,10 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 
-	"github.com/cool-team-official/cool-admin-go/cool"
-	v1 "github.com/cool-team-official/cool-admin-go/modules/base/api/v1"
-	"github.com/cool-team-official/cool-admin-go/modules/base/config"
-	"github.com/cool-team-official/cool-admin-go/modules/base/model"
+	"github.com/vera-byte/cool-admin-go/cool"
+	v1 "github.com/vera-byte/cool-admin-go/modules/base/api/v1"
+	"github.com/vera-byte/cool-admin-go/modules/base/config"
+	"github.com/vera-byte/cool-admin-go/modules/base/model"
 
 	"github.com/gogf/gf/v2/crypto/gmd5"
 	"github.com/gogf/gf/v2/encoding/gbase64"

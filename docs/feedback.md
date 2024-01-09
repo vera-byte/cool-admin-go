@@ -4,7 +4,7 @@
 
 ## 方式一
 
-在代码仓库中提交[issue](https://github.com/cool-team-official/cool-admin-go/issues)
+在代码仓库中提交[issue](https://github.com/vera-byte/cool-admin-go/issues)
 
 ## 方式二
 

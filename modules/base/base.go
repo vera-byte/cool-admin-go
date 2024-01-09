@@ -1,15 +1,15 @@
 package base
 
 import (
-	_ "github.com/cool-team-official/cool-admin-go/modules/base/packed"
+	_ "github.com/vera-byte/cool-admin-go/modules/base/packed"
 
-	"github.com/cool-team-official/cool-admin-go/cool"
-	_ "github.com/cool-team-official/cool-admin-go/modules/base/controller"
-	_ "github.com/cool-team-official/cool-admin-go/modules/base/funcs"
-	_ "github.com/cool-team-official/cool-admin-go/modules/base/middleware"
-	"github.com/cool-team-official/cool-admin-go/modules/base/model"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
+	"github.com/vera-byte/cool-admin-go/cool"
+	_ "github.com/vera-byte/cool-admin-go/modules/base/controller"
+	_ "github.com/vera-byte/cool-admin-go/modules/base/funcs"
+	_ "github.com/vera-byte/cool-admin-go/modules/base/middleware"
+	"github.com/vera-byte/cool-admin-go/modules/base/model"
 )
 
 func init() {

@@ -23,12 +23,12 @@ func GetConn(node *gdb.ConfigNode) (db *gorm.DB, err error) {
 	errorMsg := "\n"
 	errorMsg += `cannot find database driver for specified database type "%s"`
 	errorMsg += `, did you misspell type name "%s" or forget importing the database driver? `
-	errorMsg += `possible reference: https://github.com/cool-team-official/cool-admin-go/tree/master/contrib/drivers`
+	errorMsg += `possible reference: https://github.com/vera-byte/cool-admin-go/tree/master/contrib/drivers`
 	// 换行
 	errorMsg += "\n"
 	errorMsg += `无法找到指定数据库类型的数据库驱动 "%s"`
 	errorMsg += `，您是否拼写错误了类型名称 "%s" 或者忘记导入数据库驱动？`
-	errorMsg += `参考:https://github.com/cool-team-official/cool-admin-go/contrib/drivers`
+	errorMsg += `参考:https://github.com/vera-byte/cool-admin-go/contrib/drivers`
 	err = gerror.Newf(errorMsg, node.Type, node.Type, node.Type, node.Type)
 	return
 }

@@ -1,9 +1,9 @@
-module github.com/cool-team-official/cool-admin-go/modules/task
+module github.com/vera-byte/cool-admin-go/modules/task
 
 go 1.18
 
 require (
-	github.com/cool-team-official/cool-admin-go/cool v1.0.19
+	github.com/vera-byte/cool-admin-go/cool v1.0.19
 	github.com/gogf/gf/v2 v2.4.0
 	github.com/robfig/cron v1.2.0
 )

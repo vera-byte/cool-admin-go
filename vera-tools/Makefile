@@ -8,7 +8,7 @@ help: ## 查看帮助
 pack.template-simple:
 	@rm -fr temp
 	@mkdir temp || exit 0
-	@cd temp && git clone --depth=1 -b simple  https://github.com/cool-team-official/cool-admin-go.git cool-admin-go-simple
+	@cd temp && git clone --depth=1 -b simple  https://github.com/vera-byte/cool-admin-go.git cool-admin-go-simple
 	@rm -fr temp/cool-admin-go-simple/.git
 	@cd temp && gf pack cool-admin-go-simple ../internal/packed/cool-admin-go-simple.go -n=packed -y
 	@rm -fr temp/cool-admin-go-simple
@@ -26,7 +26,7 @@ pack.template-simple.ssh:
 pack.docs:
 	@rm -fr temp
 	@mkdir temp || exit 0
-	@cd temp && git clone --depth=1 -b gh-pages https://github.com/cool-team-official/cool-admin-go.git docs/cool-admin-go
+	@cd temp && git clone --depth=1 -b gh-pages https://github.com/vera-byte/cool-admin-go.git docs/cool-admin-go
 	@rm -fr temp/docs/cool-admin-go/.git
 	@cd temp && gf pack docs ../internal/packed/docs.go -n=packed -y
 	@rm -fr temp/docs

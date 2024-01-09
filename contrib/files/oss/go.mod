@@ -1,10 +1,10 @@
-module github.com/cool-team-official/cool-admin-go/contrib/files/oss
+module github.com/vera-byte/cool-admin-go/contrib/files/oss
 
 go 1.18
 
 require (
 	github.com/aliyun/aliyun-oss-go-sdk v2.2.7+incompatible
-	github.com/cool-team-official/cool-admin-go/cool v1.0.19
+	github.com/vera-byte/cool-admin-go/cool v1.0.19
 	github.com/gogf/gf/v2 v2.4.0
 )
 

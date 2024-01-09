@@ -3,7 +3,6 @@ package sqlite
 import (
 	"fmt"
 
-	"github.com/cool-team-official/cool-admin-go/cool/cooldb"
 	"github.com/glebarez/sqlite"
 	"github.com/gogf/gf/v2/database/gdb"
 	"github.com/gogf/gf/v2/encoding/gurl"
@@ -11,6 +10,7 @@ import (
 	"github.com/gogf/gf/v2/os/gfile"
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/gogf/gf/v2/util/gconv"
+	"github.com/vera-byte/cool-admin-go/cool/cooldb"
 	"gorm.io/gorm"
 )
 

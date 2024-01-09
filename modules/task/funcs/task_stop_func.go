@@ -1,10 +1,10 @@
 package funcs
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool"
-	"github.com/cool-team-official/cool-admin-go/modules/task/model"
-	"github.com/cool-team-official/cool-admin-go/modules/task/service"
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/vera-byte/cool-admin-go/cool"
+	"github.com/vera-byte/cool-admin-go/modules/task/model"
+	"github.com/vera-byte/cool-admin-go/modules/task/service"
 )
 
 type TaskStopFunc struct {

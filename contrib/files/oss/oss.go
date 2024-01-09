@@ -1,16 +1,16 @@
 package oss
 
-
 import (
 	"context"
 	"fmt"
+
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	"github.com/cool-team-official/cool-admin-go/cool"
-	"github.com/cool-team-official/cool-admin-go/cool/coolfile"
 	"github.com/gogf/gf/v2/errors/gerror"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/gogf/gf/v2/util/grand"
+	"github.com/vera-byte/cool-admin-go/cool"
+	"github.com/vera-byte/cool-admin-go/cool/coolfile"
 )
 
 var (

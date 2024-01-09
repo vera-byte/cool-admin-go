@@ -14,7 +14,7 @@ CoolAdminGo 是开源免费的，遵循`MIT`开源协议，意味着您无需支
 开源免费，并不意味着您可以将 cool-admin 应用到非法的领域，比如涉及赌博，暴力等方面。如因此产生纠纷等法律问题，cool-admin 不承担任何责任。
 :::
 
-CoolAdminGo 代码仓库地址：[https://github.com/cool-team-official/cool-admin-go](https://github.com/cool-team-official/cool-admin-go)
+CoolAdminGo 代码仓库地址：[https://github.com/vera-byte/cool-admin-go](https://github.com/vera-byte/cool-admin-go)
 
 ::: tip 提示
 如果您觉得 CoolAdminGo 帮助到了您，欢迎给我们点个 star，您的支持是我们最大的动力。

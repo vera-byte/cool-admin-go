@@ -3,8 +3,8 @@ package admin
 import (
 	"context"
 
-	"github.com/cool-team-official/cool-admin-go/cool"
-	"github.com/cool-team-official/cool-admin-go/modules/dict/service"
+	"github.com/vera-byte/cool-admin-go/cool"
+	"github.com/vera-byte/cool-admin-go/modules/dict/service"
 
 	"github.com/gogf/gf/v2/frame/g"
 )

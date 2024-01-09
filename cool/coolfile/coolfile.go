@@ -1,9 +1,9 @@
 package coolfile
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool/coolconfig"
 	"github.com/gogf/gf/v2/errors/gerror"
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/vera-byte/cool-admin-go/cool/coolconfig"
 )
 
 type Driver interface {
@@ -24,7 +24,7 @@ func NewFile() (d Driver) {
 	errorMsg := "\n"
 	errorMsg += `无法找到指定文件上传类型 "%s"`
 	errorMsg += `，您是否拼写错误了类型名称 "%s" 或者忘记导入上传支持包？`
-	errorMsg += `参考:https://github.com/cool-team-official/cool-admin-go/tree/master/contrib/files`
+	errorMsg += `参考:https://github.com/vera-byte/cool-admin-go/tree/master/contrib/files`
 	err := gerror.Newf(errorMsg, coolconfig.Config.File.Mode, coolconfig.Config.File.Mode)
 
 	panic(err)

@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/cool-team-official/cool-admin-go/modules/base/config"
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/vera-byte/cool-admin-go/modules/base/config"
 )
 
 func init() {

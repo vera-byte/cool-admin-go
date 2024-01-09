@@ -1,3 +1,3 @@
-module github.com/cool-team-official/cool-admin-go/docs
+module github.com/vera-byte/cool-admin-go/docs
 
 go 1.18

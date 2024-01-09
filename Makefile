@@ -21,7 +21,7 @@ front: ## 下载最新cool-admin-vue,并调整参数编译
 docs: ## 打开pkgsite文档
 	@set -e; \
 	go install golang.org/x/pkgsite/cmd/pkgsite@latest;\
-	echo "http://localhost:6060/github.com/cool-team-official/cool-admin-go";\
+	echo "http://localhost:6060/github.com/vera-byte/cool-admin-go";\
 	pkgsite -http=localhost:6060
 
 .PHONY: init

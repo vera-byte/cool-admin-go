@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/cool-team-official/cool-admin-go/cool"
 	"github.com/gogf/gf/v2/os/gtime"
+	"github.com/vera-byte/cool-admin-go/cool"
 )
 
 const TableNameTaskInfo = "task_info"

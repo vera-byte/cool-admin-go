@@ -3,10 +3,10 @@ package admin
 import (
 	"context"
 
-	"github.com/cool-team-official/cool-admin-go/cool"
-	v1 "github.com/cool-team-official/cool-admin-go/modules/base/api/v1"
-	"github.com/cool-team-official/cool-admin-go/modules/base/service"
 	"github.com/gogf/gf/v2/frame/g"
+	"github.com/vera-byte/cool-admin-go/cool"
+	v1 "github.com/vera-byte/cool-admin-go/modules/base/api/v1"
+	"github.com/vera-byte/cool-admin-go/modules/base/service"
 )
 
 type BaseOpen struct {

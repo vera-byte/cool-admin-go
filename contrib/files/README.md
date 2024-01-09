@@ -10,8 +10,9 @@ cool:
     mode: "local"
     domain: "http://127.0.0.1:8002"
 ```
+
 驱动引入：
 
 ```go
-import _ "github.com/cool-team-official/cool-admin-go/contrib/files/local"
+import _ "github.com/vera-byte/cool-admin-go/contrib/files/local"
 ```

@@ -1,15 +1,15 @@
 package demo
 
 import (
-	_ "github.com/cool-team-official/cool-admin-go/modules/task/packed"
+	_ "github.com/vera-byte/cool-admin-go/modules/task/packed"
 
-	"github.com/cool-team-official/cool-admin-go/cool"
-	_ "github.com/cool-team-official/cool-admin-go/modules/task/controller"
-	_ "github.com/cool-team-official/cool-admin-go/modules/task/funcs"
-	_ "github.com/cool-team-official/cool-admin-go/modules/task/middleware"
-	"github.com/cool-team-official/cool-admin-go/modules/task/model"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
+	"github.com/vera-byte/cool-admin-go/cool"
+	_ "github.com/vera-byte/cool-admin-go/modules/task/controller"
+	_ "github.com/vera-byte/cool-admin-go/modules/task/funcs"
+	_ "github.com/vera-byte/cool-admin-go/modules/task/middleware"
+	"github.com/vera-byte/cool-admin-go/modules/task/model"
 )
 
 func init() {
